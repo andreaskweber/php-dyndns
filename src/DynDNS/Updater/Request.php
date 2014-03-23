@@ -75,9 +75,9 @@ class Request
      */
     protected function isValidHost($host)
     {
-        return (preg_match("/^([a-z\d](-*[a-z\d])*)(\.([a-z\d](-*[a-z\d])*))*$/i", $host) //valid chars check
-            && preg_match("/^.{1,253}$/", $host) //overall length check
-            && preg_match("/^[^\.]{1,63}(\.[^\.]{1,63})*$/", $host)); //length of each label
+        return (preg_match("/^([a-z\d](-*[a-z\d])*)(\.([a-z\d](-*[a-z\d])*))*$/i", $host) // valid chars
+            && preg_match("/^.{1,253}$/", $host) // overall length
+            && preg_match("/^[^\.]{1,63}(\.[^\.]{1,63})*$/", $host)); // length of each label
     }
 
 
