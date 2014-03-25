@@ -6,6 +6,10 @@ A PHP based DynDNS library
 ### Requirements
 Library requires PHP >= 5.4 and the PHP curl extension
 
+### Supported domain providers
+- [Dyn](http://dyn.com)
+- [SchlundTech](http://www.schlundtech.de) (Access to the [XML-Gateway](http://www.schlundtech.com/services/xml-gateway) required)
+
 ### Installation
 
 Clone repository
