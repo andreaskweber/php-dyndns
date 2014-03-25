@@ -1,6 +1,6 @@
 {
-    "name": "andreas-weber/php-dyndns-schlundtech",
-    "description": "A PHP based DynDNS library for SchlundTech",
+    "name": "andreas-weber/php-dyndns",
+    "description": "A PHP based DynDNS library",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +9,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/andreas-weber/php-dyndns-schlundtech/issues"
+        "issues": "https://github.com/andreas-weber/php-dyndns/issues"
     },
     "require": {
         "php": ">=5.4"

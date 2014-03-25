@@ -3,9 +3,8 @@ php-dyndns
 
 A PHP based DynDNS library
 
-### Dependencies
-- PHP 5.4
-- PHP-Curl extension
+### Requirements
+Library requires PHP >= 5.4 and the PHP curl extension
 
 ### Installation
 
